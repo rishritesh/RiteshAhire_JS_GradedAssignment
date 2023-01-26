@@ -1,0 +1,38 @@
+body{
+   
+    background-color: gray;
+}
+#form {
+    margin-left: 400px;
+    /* margin-right: 50%; */
+    margin-top: 200px;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    background-color: yellow;
+
+
+}
+
+#username {
+
+    width: 300px;
+    /* text-align: center; */
+    margin-left: 90px;
+    /* margin-top: 20px; */
+
+}
+
+#password {
+    width: 300px;
+    /* text-align: center; */
+    margin-left: 90px;
+}
+
+#error {
+    color: red;
+}
+label{
+    margin-top: 20px;
+   
+}

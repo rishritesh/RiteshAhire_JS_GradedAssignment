@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Resume Page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="resume.css">
+
+</head>
+
+<body>
+    <div id="out" class="container">
+        <h1>No Match Found</h1>
+    </div>
+    <div class="container text-center my-2">
+        <input id="search" type="text" placeholder="enter keyword to filter">
+    </div>
+    <button id="left" class=" btn btn-primary">Prev</button>
+    <button id="right" class=" btn btn-primary">Next</button>
+    <div id="resume">
+        <div id="header" class=" text-center">
+            <h1 id="name">name</h1>
+            <span id="soft">software engineer</span>
+        </div>
+        <div id="flex">
+
+            <!-- side bar info -->
+            <div id="sidebar" class="container">
+                <label class="style">personal infomation </label>
+                <span id="phone"></span>
+                <br>
+                <span id="email"></span>
+                <br>
+                <a id="linkedin"></a>
+                <br>
+                <label class="style">technical Skills </label>
+                <br>
+                <span id="skill"></span>
+                <span id="skill1"></span>
+                <span id="skill2"></span>
+                <label class="style">Hobbies</label>
+                <br>
+                <div id="hobbies"> </div>
+            </div>
+
+            <!-- data for resume -->
+            <div id="inner" class="container">
+                <div class="container">
+                    <h3>Work experience in previous company</h3>
+                    <label class="style">Company Name:</label>
+                    <span id="company">company name</span>
+                    <br>
+                    <label class="style">Position :</label>
+                    <span id="position">postion</span>
+                    <br>
+                    <label class="style">Start Date :</label>
+                    <span id="start">start End</span>
+                    <br>
+                    <label class="style">End Date :</label>
+                    <span id="end">End date</span>
+                    <br>
+                    <label class="style">Summary :</label>
+                    <span id="summary"></span>
+                </div>
+                <div class="container">
+                    <h3>projects</h3>
+
+                    <span id="project"></span>
+                    <span id="projectdes"></span>
+                </div>
+                <div class="container">
+                    <h3>education</h3>
+                    <ul>
+                        <li id="education"></li>
+                        <li id="education1"></li>
+
+                        <li id="education2"></li>
+                    </ul>
+                </div>
+                <div id="intern" class="container">
+                    <h3>internship</h3>
+                    <label class="style">Company Name:</label>
+                    <span id="company1">company name</span>
+                    <br>
+                    <label class="style">Position :</label>
+                    <span id="position1">postion</span>
+                    <br>
+                    <label class="style">Start Date :</label>
+                    <span id="start1">start End</span>
+                    <br>
+                    <label class="style">End Date :</label>
+                    <span id="end1">End date</span>
+                    <br>
+                    <label class="style">Summary :</label>
+                    <span id="summary1"></span>
+
+                </div>
+                <h3>Achievement</h3>
+                <div id="achievement" class="container">
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="resume.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
